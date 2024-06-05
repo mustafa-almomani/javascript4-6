@@ -55,9 +55,3 @@ function change_size(value){
 
 
 
-// document.querySelector(".cars #jordan").onclick = function() {cccc()};
-
-// function cccc(){
-//     document.getElementById("img").src="image/ف.jpg"
-// }
-
