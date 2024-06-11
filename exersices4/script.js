@@ -54,11 +54,11 @@ outputs the result to the screen like so:
 Ex: calculateSupply(30, 3);
 => 'You will need 76650 cups of tea to last you until the ripe old age of 100;
 */
-// function calculateSupply(){
-//     age=30
-//     amount=3
+function calculateSupply(){
+    age=30
+    amount=3
 
-// }
+}
 
 
 
@@ -70,8 +70,8 @@ Ex: calculateSupply(30, 3);
     
 //     document.write("You will need "+ total_amount_needed + " cups of tea to last you until the ripe old age of "+ max_age)
 // }
-
 // calculateSupply(30, 3)
+
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -587,21 +587,21 @@ Ex: counter()
 => 1
 */
 
-function counter() {
-    let c = 0;
-    let counter_Function = function() {
-        return c++;
-    };
+// function counter() {
+//     let c = 0;
+//     let counter_Function = function() {
+//         return c++;
+//     };
 
-    counter_Function.reset = function() {
-        c = 0;
-    };
+//     counter_Function.reset = function() {
+//         c = 0;
+//     };
 
-    return counter_Function;
-}
+//     return counter_Function;
+// }
 
-let c = counter();
-console.log(c()); 
-console.log(c()); 
-c.reset();
-document.write(c());
+// let c = counter();
+// console.log(c()); 
+// console.log(c()); 
+// c.reset();
+// document.write(c());

@@ -158,3 +158,4 @@ function addSong() {
     
     songInput.value = "";
 }
+
